@@ -1,0 +1,7 @@
+2012-02-15 21:49:25 DEBUG: <type 'exceptions.TypeError'>
+2012-02-15 21:49:25 DEBUG: ('can only concatenate list (not "int") to list',)
+2012-02-15 21:49:25 ERROR: Give me the traceback
+Traceback (most recent call last):
+  File "F:\Dropbox\Michigan\Programming\Python\ioB.py", line 38, in main
+    a+3
+TypeError: can only concatenate list (not "int") to list

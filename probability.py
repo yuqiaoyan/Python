@@ -45,6 +45,8 @@ def drawHist(aHistogram):
 	plt.show()
 	
 if __name__ == '__main__':
+#cmd line: 	"python probability.py numExperiments numCouponType"
+#		#python probability.py 1000 7"
 	types = int(sys.argv[2])
 	resultList = simExperiments(int(sys.argv[1]),types)
 	resultArray = array(resultList)
